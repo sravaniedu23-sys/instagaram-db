@@ -1,0 +1,63 @@
+create table accounts(username VARCHAR(255),firstname char(50),posts int,country char(50));
+
+SELECT * FROM ACCOUNTS;
+INSERT INTO ACCOUNTS VALUES ('_SRAV123','SRAVANI',5,'INDIA'),
+('SHIVA_18','SHIVA',7,'INDIA'),
+('MAHITHA_38','MAHI',7,'CHINA'),
+('DEEPIKA_28','DEEPS',7,'INDIA'),
+('ANJALI_8','ANJU',7,'AMERICA'),
+('DEEPIKA_4','DEEPU',7,'CANADA');
+"_SRAV123"	"SRAVANI                                           "	5	"INDIA                                             "
+"_SRAV123"	"SRAVANI                                           "	5	"INDIA                                             "
+"SHIVA_18"	"SHIVA                                             "	7	"INDIA                                             "
+"MAHITHA_38"	"MAHI                                              "	7	"CHINA                                             "
+"DEEPIKA_28"	"DEEPS                                             "	7	"INDIA                                             "
+"ANJALI_8"	"ANJU                                              "	7	"AMERICA                                           "
+"DEEPIKA_4"	"DEEPU                                             "	7	"CANADA                                            "
+"_SRAV123"	"SRAVANI                                           "	5	"INDIA                                             "
+"SHIVA_18"	"SHIVA                                             "	7	"INDIA                                             "
+"MAHITHA_38"	"MAHI                                              "	7	"CHINA                                             "
+"DEEPIKA_28"	"DEEPS                                             "	7	"INDIA                                             "
+"ANJALI_8"	"ANJU                                              "	7	"AMERICA                                           "
+"DEEPIKA_4"	"DEEPU                                             "	7	"CANADA                                            "
+"_SRAV123"	"SRAVANI                                           "	5	"INDIA                                             "
+"SHIVA_18"	"SHIVA                                             "	7	"INDIA                                             "
+"MAHITHA_38"	"MAHI                                              "	7	"CHINA                                             "
+"DEEPIKA_28"	"DEEPS                                             "	7	"INDIA                                             "
+"ANJALI_8"	"ANJU                                              "	7	"AMERICA                                           "
+"DEEPIKA_4"	"DEEPU                                             "	7	"CANADA                                            "
+"_SRAV123"	"SRAVANI                                           "	5	"INDIA                                             "
+"SHIVA_18"	"SHIVA                                             "	7	"INDIA                                             "
+"MAHITHA_38"	"MAHI                                              "	7	"CHINA                                             "
+"DEEPIKA_28"	"DEEPS                                             "	7	"INDIA                                             "
+"ANJALI_8"	"ANJU                                              "	7	"AMERICA                                           "
+"DEEPIKA_4"	"DEEPU                                             "	7	"CANADA                                            "
+"_SRAV123"	"SRAVANI                                           "	5	"INDIA                                             "
+"SHIVA_18"	"SHIVA                                             "	7	"INDIA                                             "
+"MAHITHA_38"	"MAHI                                              "	7	"CHINA                                             "
+"DEEPIKA_28"	"DEEPS                                             "	7	"INDIA                                             "
+"ANJALI_8"	"ANJU                                              "	7	"AMERICA                                           "
+"DEEPIKA_4"	"DEEPU                                             "	7	"CANADA                                            "
+"_SRAV123"	"SRAVANI                                           "	5	"INDIA                                             "
+"SHIVA_18"	"SHIVA                                             "	7	"INDIA                                             "
+"MAHITHA_38"	"MAHI                                              "	7	"CHINA                                             "
+"DEEPIKA_28"	"DEEPS                                             "	7	"INDIA                                             "
+"ANJALI_8"	"ANJU                                              "	7	"AMERICA                                           "
+"DEEPIKA_4"	"DEEPU                                             "	7	"CANADA
+SELECT * FROM public.accounts
+create table likes(username varchar(255),likes int,comment int);
+insert into likes values('sravani_12',50,12),
+('madhu_10',70,12),
+('charishma_92',8,12),
+('sudha_18',90,12),
+('deepu_1',40,12),
+('shiva_2',30,12),
+('mahi_3',20,12);
+"sravani_12"	50	12
+"madhu_10"	70	12
+"charishma_92"	8	12
+"sudha_18"	90	12
+"deepu_1"	40	12
+"shiva_2"	30	12
+"mahi_3"	20	12  
+                                          
